@@ -1,0 +1,64 @@
+/** 
+ *  This CSS provides all the style settings for
+ *  our JavaFX controls.
+ *
+ *  @author McKilla Gorilla & _____________
+ */
+
+.slide_show_edit_vbox {
+    -fx-background-radius: 5.0;
+    -fx-background-color: rgb(255, 255, 0);
+    -fx-border-color: rgb(200, 200, 200);
+}
+
+.slide_edit_view {
+    -fx-background-radius: 10.0;
+    -fx-background-color: rgb(204, 246, 0);
+    -fx-border-color: rgb(70, 5, 5);
+    -fx-border-thickness: 10px;
+    -fx-spacing: 60px;
+    -fx-border-color: #2e8b57;
+    -fx-font: 18px "Impact";
+}
+
+.selected_slide_edit_view {
+    -fx-padding: 10px 10px 10px 10px;
+    -fx-background-color: rgb(238, 238, 207);
+    -fx-border-thickness: 10px;
+    -fx-spacing: 50px;
+    -fx-border-color: #2e8b57;
+}
+
+.vertical_toolbar_button {
+    -fx-background-radius: 5.0;
+    -fx-base: #ffd700;
+    -fx-padding: 10px 10px 10px 10px;
+    -fx-border-thickness: 10px;
+    -fx-spacing: 50px;
+}
+
+.horizontal_toolbar_button {
+    -fx-background-radius: 5.0;
+    -fx-base: #ffd700;
+    -fx-padding: 10px 10px 10px 10px;
+    -fx-border-thickness: 10px;
+    -fx-spacing: 50px;
+}
+
+.vbox {
+    -fx-border-color: #2e8b57;
+    -fx-border-width: 2px;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+.lang_prompt_BTN {
+    -fx-font: 18px "Impact";
+    -fx-base: #ffd700;
+    -fx-background: rgb(255, 233, 130);
+}
+
+#ssmP {
+    -fx-background-color: rgb(255, 216, 27);
+    -fx-font: 18px "Impact";
+}

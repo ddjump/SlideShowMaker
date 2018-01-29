@@ -1,0 +1,15 @@
+body {
+	background-color: lightblue;
+	background: radial-gradient(circle, white, lightblue);
+}
+
+h1 {
+	font-family: "impact";
+	font-size: 60px;
+	color: black;
+}
+
+figcaption {
+	font-family: "open sans";
+	font-size: 35px;
+}

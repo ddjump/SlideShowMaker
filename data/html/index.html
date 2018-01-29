@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CSE 219 Computer Science III</title>
+        <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script src="js/Slideshow.js"></script>
+		<script src="yen.json"></script>
+		<link rel="StyleSheet" type="text/css" href="css/SlideShow.css">
+    </head>
+    <body onLoad="getJsonFile();">
+        <h1 id="title">
+            <p> Loading... </p>
+        </h1>
+        
+        <center>
+            <figure>
+                <img src="blank" id="sampleImage" onclick="startIt()" alt="SamplePicture" height="312">
+                <figcaption id="caption"> Caption Here </figcaption>
+            </figure>
+                <img src="img/arrow-left.png" id="leftImage" onclick="leftButton()" alt="arrowLeft" height="40" width="40" align="middle">
+                <img src="img/playbutton.png" id="playImage" onclick="playButton()" alt="play" height="70" width="70" align="middle">
+                <img src="img/arrow-right.png" id="rightImage" onclick="rightButton()" alt="arrowRight" height="40" width="40" align="middle">
+        </center>
+    </body> 
+</html>
